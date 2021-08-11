@@ -7,6 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4693CFD8269A4FFD00D3D34F /* NameTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4693CFD6269A4FFD00D3D34F /* NameTableViewCell.swift */; };
+		4693CFD9269A4FFD00D3D34F /* NameTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4693CFD7269A4FFD00D3D34F /* NameTableViewCell.xib */; };
+		4693CFDF269A593F00D3D34F /* SelfieTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4693CFDD269A593F00D3D34F /* SelfieTableViewCell.swift */; };
+		4693CFE0269A593F00D3D34F /* SelfieTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4693CFDE269A593F00D3D34F /* SelfieTableViewCell.xib */; };
+		4693CFE6269A5C8A00D3D34F /* GraficasTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4693CFE4269A5C8A00D3D34F /* GraficasTableViewCell.swift */; };
+		4693CFE7269A5C8A00D3D34F /* GraficasTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4693CFE5269A5C8A00D3D34F /* GraficasTableViewCell.xib */; };
+		4693D02B269A769900D3D34F /* GraficasViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4693D02A269A769900D3D34F /* GraficasViewController.swift */; };
+		4693D045269ACE2900D3D34F /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4693D044269ACE2800D3D34F /* ViewModel.swift */; };
 		46D4B18E269A3B2900ABA28C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46D4B18D269A3B2900ABA28C /* AppDelegate.swift */; };
 		46D4B190269A3B2900ABA28C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46D4B18F269A3B2900ABA28C /* SceneDelegate.swift */; };
 		46D4B192269A3B2900ABA28C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46D4B191269A3B2900ABA28C /* ViewController.swift */; };
@@ -35,6 +43,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		4693CFD6269A4FFD00D3D34F /* NameTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NameTableViewCell.swift; sourceTree = "<group>"; };
+		4693CFD7269A4FFD00D3D34F /* NameTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = NameTableViewCell.xib; sourceTree = "<group>"; };
+		4693CFDD269A593F00D3D34F /* SelfieTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelfieTableViewCell.swift; sourceTree = "<group>"; };
+		4693CFDE269A593F00D3D34F /* SelfieTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SelfieTableViewCell.xib; sourceTree = "<group>"; };
+		4693CFE4269A5C8A00D3D34F /* GraficasTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GraficasTableViewCell.swift; sourceTree = "<group>"; };
+		4693CFE5269A5C8A00D3D34F /* GraficasTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = GraficasTableViewCell.xib; sourceTree = "<group>"; };
+		4693D02A269A769900D3D34F /* GraficasViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GraficasViewController.swift; sourceTree = "<group>"; };
+		4693D044269ACE2800D3D34F /* ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
 		46D4B18A269A3B2900ABA28C /* Examen-iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Examen-iOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		46D4B18D269A3B2900ABA28C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		46D4B18F269A3B2900ABA28C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -76,6 +92,38 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4693D02F269AB64300D3D34F /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				46D4B191269A3B2900ABA28C /* ViewController.swift */,
+				4693CFD6269A4FFD00D3D34F /* NameTableViewCell.swift */,
+				4693CFDD269A593F00D3D34F /* SelfieTableViewCell.swift */,
+				4693CFE4269A5C8A00D3D34F /* GraficasTableViewCell.swift */,
+				4693D02A269A769900D3D34F /* GraficasViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		4693D031269AB68600D3D34F /* View */ = {
+			isa = PBXGroup;
+			children = (
+				46D4B193269A3B2900ABA28C /* Main.storyboard */,
+				46D4B198269A3B3D00ABA28C /* LaunchScreen.storyboard */,
+				4693CFD7269A4FFD00D3D34F /* NameTableViewCell.xib */,
+				4693CFDE269A593F00D3D34F /* SelfieTableViewCell.xib */,
+				4693CFE5269A5C8A00D3D34F /* GraficasTableViewCell.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		4693D038269ACCB400D3D34F /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				4693D044269ACE2800D3D34F /* ViewModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 		46D4B181269A3B2900ABA28C = {
 			isa = PBXGroup;
 			children = (
@@ -100,11 +148,11 @@
 			isa = PBXGroup;
 			children = (
 				46D4B18D269A3B2900ABA28C /* AppDelegate.swift */,
+				4693D038269ACCB400D3D34F /* Model */,
+				4693D031269AB68600D3D34F /* View */,
+				4693D02F269AB64300D3D34F /* Controller */,
 				46D4B18F269A3B2900ABA28C /* SceneDelegate.swift */,
-				46D4B191269A3B2900ABA28C /* ViewController.swift */,
-				46D4B193269A3B2900ABA28C /* Main.storyboard */,
 				46D4B196269A3B3D00ABA28C /* Assets.xcassets */,
-				46D4B198269A3B3D00ABA28C /* LaunchScreen.storyboard */,
 				46D4B19B269A3B3D00ABA28C /* Info.plist */,
 			);
 			path = "Examen-iOS";
@@ -233,7 +281,10 @@
 			files = (
 				46D4B19A269A3B3D00ABA28C /* LaunchScreen.storyboard in Resources */,
 				46D4B197269A3B3D00ABA28C /* Assets.xcassets in Resources */,
+				4693CFD9269A4FFD00D3D34F /* NameTableViewCell.xib in Resources */,
+				4693CFE0269A593F00D3D34F /* SelfieTableViewCell.xib in Resources */,
 				46D4B195269A3B2900ABA28C /* Main.storyboard in Resources */,
+				4693CFE7269A5C8A00D3D34F /* GraficasTableViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -260,6 +311,11 @@
 			files = (
 				46D4B192269A3B2900ABA28C /* ViewController.swift in Sources */,
 				46D4B18E269A3B2900ABA28C /* AppDelegate.swift in Sources */,
+				4693CFD8269A4FFD00D3D34F /* NameTableViewCell.swift in Sources */,
+				4693CFE6269A5C8A00D3D34F /* GraficasTableViewCell.swift in Sources */,
+				4693D02B269A769900D3D34F /* GraficasViewController.swift in Sources */,
+				4693CFDF269A593F00D3D34F /* SelfieTableViewCell.swift in Sources */,
+				4693D045269ACE2900D3D34F /* ViewModel.swift in Sources */,
 				46D4B190269A3B2900ABA28C /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -439,6 +495,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = A5449499J2;
 				INFOPLIST_FILE = "Examen-iOS/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -458,6 +515,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = A5449499J2;
 				INFOPLIST_FILE = "Examen-iOS/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
